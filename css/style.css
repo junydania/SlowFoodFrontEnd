@@ -1,0 +1,1083 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+ul {
+    list-style-type: none;
+}
+
+.behclick-panel  .list-group {
+    margin-bottom: 0px;
+}
+.behclick-panel .list-group-item:first-child {
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+.behclick-panel .list-group-item {
+    border-right:0px;
+    border-left:0px;
+}
+.behclick-panel .list-group-item:last-child{
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.behclick-panel .list-group-item {
+    padding: 5px;
+}
+.behclick-panel .panel-heading {
+    /* 				padding: 10px 15px;
+                    border-bottom: 1px solid transparent; */
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom: 1px solid darkslategrey;
+}
+.behclick-panel .panel-heading:last-child{
+    /* border-bottom: 0px; */
+}
+.behclick-panel {
+    border-radius: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+.behclick-panel .radio, .checkbox {
+    margin: 0px;
+    padding-left: 10px;
+}
+.behclick-panel .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+    outline: none;
+}
+.behclick-panel .panel-body > .panel-heading{
+    padding:10px 10px;
+}
+.behclick-panel .panel-body {
+    padding: 0px;
+}
+/* unvisited link */
+.behclick-panel a:link {
+    text-decoration:none;
+}
+
+/* visited link */
+.behclick-panel a:visited {
+    text-decoration:none;
+}
+
+/* mouse over link */
+.behclick-panel a:hover {
+    text-decoration:none;
+}
+
+/* selected link */
+.behclick-panel a:active {
+    text-decoration:none;
+}
+#restaurant_header {
+    text-align: center;
+}
+
+#restaurant-button {
+    top: 50%;
+    width: 194.5px;
+    height: 60px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.popular {
+    text-align: center;
+}
+
+#cart {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: green
+}
+
+.form-group {
+    position: absolute;
+    z-index: 9999999;
+    top: 20px;
+    /* change to whatever you want */
+    left: 10px;
+    /* change to whatever you want */
+    right: auto;
+    /* change to whatever you want */
+    bottom: auto;
+    /* change to whatever you want */
+}
+
+#map {
+    width: 100% auto;
+    height: 400px
+}
+
+#searchForm {
+    position: absolute;
+    top: 40%;
+}
+
+#search {
+    border-style: solid;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #aaa;
+    padding: 3px 10px;
+    margin: 10px;
+    margin-left: 2px;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.15);
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.button-background {
+    width: 194.5px;
+    height: 34.5px;
+    border-radius: 3px;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+    left: 0;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    right: 30;
+    margin-right: 20px
+}
+
+#logo {
+    padding-left: 0px;
+    padding-bottom: 2px;
+}
+
+.navbar-brand>img {
+    display: block;
+    max-width: 200px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 25px 0px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0px;
+    color: #000;
+    font-family: Lato;
+    text-align: left;
+    background: #fff;
+}
+
+p,
+ul,
+a {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0px 20px;
+    color: #333;
+    padding-left: 2px;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #555;
+}
+
+h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #db5832;
+    font-size: 20px;
+    padding: 40px 15px 15px 0px;
+}
+
+ul.social {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 0px;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social a {
+    font-size: 20px;
+    color: #db5832;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+.list-div {
+    box-shadow: 3px 5px 3px #333;
+}
+
+.list-div {
+    box-shadow: 3px 5px 12px #989898;
+    /* padding: 10px; */
+    background: #fff;
+}
+
+.list-div-text {
+    padding: 1px 15px;
+}
+
+.title {
+    margin: 30px 0px;
+}
+
+.content {
+    display: block;
+    background: #eee;
+    padding: 20px;
+}
+
+input[type="text"] {
+    height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Lato";
+    font-weight: 100;
+    border: none;
+    outline: none;
+    color: #555;
+    padding: 3px;
+    padding-right: 60px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    z-index: 3;
+    transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+    cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+    border-bottom: 1px solid #BBB;
+}
+
+input[type="text"]:focus {
+    width: 280px;
+    z-index: 1;
+    border-bottom: 1px solid #BBB;
+    cursor: text;
+}
+
+input[type="submit"] {
+    height: 40px;
+    width: 63px;
+    display: inline-block;
+    color: red;
+    float: right;
+    background: url(../images/searchicon.png) center center no-repeat;
+    text-indent: -10000px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity .4s ease;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.search-box {
+    margin-top: 30px;
+}
+
+.navbar-right>li>a {
+    color: #999999 !important;
+}
+
+.carousel-inner>.item>img {
+    line-height: 1;
+    width: 100%;
+}
+
+footer {
+    padding: 20px 0px;
+}
+
+input[type="text"]:focus {
+    outline: 0;
+}
+
+.user img {
+    max-width: 75px;
+}
+
+@media only screen and (min-width:300px) and (max-width:560px) {
+    .price-btn .btn-info,
+    .ticket-btn .btn-info {
+        font-size: 12px;
+    }
+    .event-desc img {
+        max-width: 150px;
+    }
+    .event p {
+        text-align: center;
+    }
+    .price-btn .btn-info {
+        margin: 10px auto;
+        display: block;
+        width: 80%;
+    }
+    .ticket-btn .btn-info {
+        margin: 10px auto;
+        display: block;
+    }
+    .comment input.btn.btn-default {
+        margin: 0 auto;
+        display: block;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: visible;
+    }
+    section.home-slider {
+        height: 593px;
+    }
+    .carousel-caption .btn {
+        padding: 6px 0px !important;
+        font-size: 14px !important;
+    }
+    ul.social {
+        margin-bottom: 0px !important;
+    }
+    .carousel-caption {
+        bottom: -439px !important;
+        left: 15% !important;
+        right: 0% !important;
+    }
+    .sign-up-head h3 {
+        font-size: 20px !important;
+        line-height: 1.4 !important;
+    }
+    .login-social h3 {
+        font-size: 18px !important;
+        margin: 0px !important;
+    }
+    .user img {
+        max-width: 55px;
+        margin: 10px auto;
+        /* margin: 20px; */
+    }
+    .comment h6 {
+        text-align: center;
+    }
+    .vedio-title p {
+        padding: 0px;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    h4,
+    h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+    input[type="text"]:focus {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .search-box {
+        margin-top: 0px;
+    }
+    .social a {
+        font-size: 13px;
+        color: #db5832;
+        padding: 0px 4px;
+    }
+    .navbar-toggle {
+        margin-top: 26px;
+        padding: 5px 4px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 18px;
+        height: 1px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+        padding: 0px 15px;
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (min-width:561px) and (max-width:768px) {
+    .event-desc img {
+        max-width: 120px;
+    }
+    .event p {
+        text-align: center;
+    }
+    .price-btn .btn-info {
+        margin: 10px auto;
+        display: block;
+        width: 80%;
+    }
+    .ticket-btn .btn-info {
+        margin: 10px auto;
+        display: block;
+    }
+    .comment input.btn.btn-default {
+        margin: 0 auto;
+        display: block;
+    }
+    .sign-up img {
+        margin: 5px auto !important;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: visible;
+    }
+    section.home-slider {
+        height: 400px;
+    }
+    .form-group {
+        margin-bottom: 5px !important;
+    }
+    .carousel-caption .btn {
+        padding: 4px 0px !important;
+        font-size: 12px !important;
+    }
+    ul.social {
+        margin-bottom: 0px !important;
+    }
+    .carousel-caption {
+        bottom: -147px !important;
+        left: 16% !important;
+        right: 16% !important;
+    }
+    .sign-up-head h3 {
+        font-size: 14px !important;
+        line-height: 1.2 !important;
+    }
+    .login-social h3 {
+        font-size: 13px !important;
+        margin: 0px !important;
+        line-height: 2 !important;
+    }
+    .slider-div .fa {
+        padding: 4px 3px;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+    }
+    .user img {
+        max-width: 55px;
+        margin: 10px auto;
+        /* margin: 20px; */
+    }
+    .comment h6 {
+        text-align: center;
+    }
+    .vedio-title p {
+        padding: 0px;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+    h4,
+    h5 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+    input[type="text"]:focus {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .search-box {
+        margin-top: 0px;
+    }
+    .social a {
+        font-size: 15px;
+        color: #db5832;
+        padding: 5px 4px;
+    }
+    .navbar-brand {
+        padding: 8px 25px 0px 0px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .navbar-brand>img {
+        display: block;
+        max-width: 158px;
+    }
+    .navbar-toggle {
+        margin-top: 26px;
+        padding: 5px 4px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 18px;
+        height: 1px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 0px 15px;
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .price-btn .btn-info,
+    .ticket-btn .btn-info {
+        font-size: 12px;
+    }
+    .sign-up img {
+        margin: 5px auto !important;
+    }
+    .form-group {
+        margin-bottom: 5px !important;
+    }
+    .carousel-caption .btn {
+        padding: 4px 0px !important;
+        font-size: 12px !important;
+    }
+    ul.social {
+        margin-bottom: 0px !important;
+    }
+    .carousel-caption {
+        bottom: -15px !important;
+        left: 54% !important;
+        right: 4% !important;
+    }
+    .sign-up-head h3 {
+        font-size: 14px !important;
+        line-height: 1.2 !important;
+    }
+    .login-social h3 {
+        font-size: 13px !important;
+        margin: 0px !important;
+        line-height: 2 !important;
+    }
+    .slider-div .fa {
+        padding: 4px 3px !important;
+        font-size: 12px !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .user img {
+        max-width: 55px;
+    }
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    h4,
+    h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+    input[type="text"]:focus {
+        margin-top: 10px;
+        width: 166px;
+        font-size: 10px;
+    }
+    .search-box {
+        margin-top: 12px;
+    }
+    .social a {
+        font-size: 13px;
+        color: #db5832;
+        padding: 2px 4px;
+    }
+    .navbar-brand {
+        padding: 8px 25px 0px 0px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .navbar-brand>img {
+        display: block;
+        max-width: 158px;
+    }
+    .navbar-toggle {
+        margin-top: 26px;
+        padding: 5px 4px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 18px;
+        height: 1px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 24px 9px;
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1050px) {
+    .already-user-div {
+        padding: 6px 0px !important;
+    }
+    .carousel-caption .btn {
+        padding: 6px 0px !important;
+        font-size: 14px !important;
+    }
+    ul.social {
+        margin-bottom: 3px !important;
+    }
+    .carousel-caption {
+        bottom: -5px !important;
+    }
+    .sign-up-head h3 {
+        font-size: 18px !important;
+        line-height: 1.2 !important;
+    }
+    .login-social h3 {
+        font-size: 16px !important;
+        margin: 0px !important;
+        line-height: 1.2 !important;
+        margin-top: 4px !important;
+    }
+    .slider-div .fa {
+        padding: 4px 3px;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+    }
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+    input[type="text"]:focus {
+        margin-top: 10px;
+        width: 166px;
+        font-size: 10px;
+    }
+    .search-box {
+        margin-top: 12px;
+    }
+    .social a {
+        font-size: 17px;
+        color: #db5832;
+        padding: 0px 4px;
+    }
+    .navbar-brand {
+        padding: 8px 25px 0px 0px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .navbar-brand>img {
+        display: block;
+        max-width: 158px;
+    }
+    .navbar-toggle {
+        margin-top: 26px;
+        padding: 5px 4px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 18px;
+        height: 1px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 24px 7px;
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (min-width:1051px) and (max-width:1300px) {
+    .carousel-caption .btn {
+        padding: 6px 0px !important;
+        font-size: 14px !important;
+    }
+    ul.social {
+        margin-bottom: 0px !important;
+    }
+    .carousel-caption {
+        bottom: -5px !important;
+    }
+    .sign-up-head h3 {
+        font-size: 20px !important;
+        line-height: 1.4 !important;
+    }
+    .login-social h3 {
+        font-size: 18px !important;
+        margin: 0px !important;
+    }
+    .slider-div .fa {
+        padding: 4px 3px;
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+    }
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+    input[type="text"]:focus {
+        margin-top: 10px;
+        width: 166px;
+        font-size: 10px;
+    }
+    .search-box {
+        margin-top: 12px;
+    }
+    .social a {
+        font-size: 20px;
+        color: #db5832;
+        padding: 5px 4px;
+    }
+    .navbar-brand {
+        padding: 8px 25px 0px 0px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .navbar-brand>img {
+        display: block;
+        max-width: 158px;
+    }
+    .navbar-toggle {
+        margin-top: 26px;
+        padding: 5px 4px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 18px;
+        height: 1px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 24px 7px;
+        margin-bottom: 8px;
+    }
+}
+
+.carousel-caption {
+    right: 10%;
+    left: 60%;
+    padding-bottom: 30px;
+    bottom: 20px;
+}
+
+.carousel-caption .btn {
+    text-shadow: none;
+    background: #85b140;
+    border-radius: 0px;
+    border: 0px wheat;
+    width: 100%;
+    padding: 8px 0px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.already-user-div {
+    background: #5a9ac6;
+    padding: 12px 0px;
+}
+
+.already-user-div h5 {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+span.already-user {
+    color: #e0e0e0;
+    margin-right: 10px;
+}
+
+.sign-up-head {
+    background: #eee;
+    padding: 5px 0px;
+    margin-bottom: 16px;
+}
+
+.sign-up-head h3 {
+    color: #666;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.login-form {
+    background: #fff;
+    padding: 20px;
+}
+
+.login-social h3 {
+    color: #666;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.wrapper2 {
+    background: #eee;
+}
+
+.channel-wrapper {
+    background: #eee;
+    padding: 20px;
+}
+
+.channel-in {
+    background: #fff;
+}
+
+.list-div-text.channel-in {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+}
+
+.list-div-text.channel-in h4 {
+    text-align: center !important;
+    font-size: 20px;
+}
+
+.channel-in img {
+    margin: 0 auto;
+    display: block;
+}
+
+.channels {
+    margin: 20px auto;
+}
+
+.content2 {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.list-div img {
+    width: 100%;
+}
+
+.slider-div .fa {
+    background: #333;
+    padding: 4px 1px;
+    border-radius: 78px;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+
+.slider-div a {
+    padding: 0px 0px;
+    position: relative;
+    top: 10px;
+}
+
+.vedio-title h5 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 15px;
+    color: #000;
+}
+
+.vedio-title p {
+    color: #000;
+}
+
+.slider-div {
+    background: #9b9b9b;
+    padding: 30px 0px;
+}
+
+.comment {
+    padding: 30px 0px;
+}
+
+.comment h6 {
+    padding-left: 19px;
+    padding-bottom: 20px;
+}
+
+.comment textarea.form-control {
+    height: 120px;
+}
+
+.sign-up img {
+    margin: 20px auto;
+}
+
+.content3 {
+    background: #e6e6e6;
+}
+
+.main-div {
+    background-color: #e6e6e6;
+}
+
+.wrapper3 {
+    background: #cfcdce;
+}
+
+.wrapper3 .content3,
+.wrapper3 .content {
+    background: #cfcdce;
+}
+
+.list-div iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.img-desc {
+    background: #c5c3c4;
+    padding: 40px 20px;
+}
+
+.comment input.btn.btn-default {
+    background: #db5832;
+    color: #fff;
+    padding: 6px 0px;
+    width: 100px;
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+.comment-socail h6 {
+    padding-bottom: 5px;
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+.go-div {
+    background: #fff;
+    border: 1px solid #b1b1b1;
+    margin-bottom: 30px;
+}
+
+.event {
+    background: #fff;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.go-div button.btn.btn-default {
+    background: #d9534f;
+    color: #fff;
+    border: 1px solid #d9534f;
+    margin: 0;
+    border-radius: 0px;
+    height: 45px;
+}
+
+.go-div input.form-control {
+    height: 45px !important;
+    padding-left: 10px !important;
+}
+
+.event img {
+    width: 100%;
+}
+
+.event-desc img {
+    margin: 10px auto;
+    display: block;
+}
+
+.event-desc td,
+th {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price-btn .btn-info {
+    background: #8d8d8d;
+}
+
+.ticket-btn .btn-info {
+    background: #c5532e;
+    border: 0px;
+    width: 80%;
+}
+
+.cale {
+    text-align: center;
+    margin: 12px auto;
+    display: block;
+    background-image: url(../images/calendar-bg.png);
+    background-size: cover;
+    width: 61px;
+    height: 67px;
+}
+
+.cale h5 {
+    margin-bottom: 2px;
+    font-weight: 500;
+    position: relative;
+    top: 28px;
+    font-size: 12px;
+}
+
+.dropdown2 a {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
